@@ -9,9 +9,9 @@ Ciente da necessidade de tratamento e aprimoramento da rotina de extração, tra
 
 Para isso, primeiramente seria carregada a tabela Estoque (tbestoque) do banco de dados e no dataware house criadas as tabelas fato e dimensão:
 
-**Fato: Estoque**
+>**Fato: Estoque**
 
-**Dimensão: Fornecedor, loja, produto.**
+>**Dimensão: Fornecedor, loja, produto.**
 
 Para a criação das tabelas dimensão foram realizados no banco de dados relacional o seguinte comando:
 ```sql
