@@ -3,13 +3,15 @@ A causa raiz dessa lentidão foi identificada: a tabela tbestoque era a origem d
 Se depararam com um verdadeiro desafio. Os relatórios e dashboards que deveriam fornecer informações rápidas e precisas aos gestores estavam demorando uma eternidade para serem carregados. A equipe sentia que estavam perdendo batalhas importantes no mundo competitivo dos negócios.
 Determinados a superar esse obstáculo e alcançar um novo patamar de excelência, a diretoria da Empresa Z decidiu buscar uma consultoria especializada em análise de dados. Eles estão em busca de profissionais capacitados que possam ajudá-los a reverter essa situação, propor insights estratégicos e implementar soluções eficientes. A diretoria está comprometida em investir nos recursos necessários para transformar os desafios atuais em oportunidades de crescimento e sucesso.
 
-https://github.com/felipecalixtos/ETL_empresa_Z.git.
+**https://github.com/felipecalixtos/ETL_empresa_Z.git.**
 
 Ciente da necessidade de tratamento e aprimoramento da rotina de extração, transormação, carregamento de dados e otimização da performance do banco de dados a solução sugerida seria a criação de um dataware house. A ferramenta utilizada para o tratamento sera o postgrees (SQL).
 
 Para isso, primeiramente seria carregada a tabela Estoque (tbestoque) do banco de dados e no dataware house criadas as tabelas fato e dimensão:
-Fato: Estoque
-Dimensão: Fornecedor, loja, produto.
+
+**Fato: Estoque**
+
+**Dimensão: Fornecedor, loja, produto.**
 
 Para a criação das tabelas dimensão foram realizados no banco de dados relacional o seguinte comando:
 ```sql
