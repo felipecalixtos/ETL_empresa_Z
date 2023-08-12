@@ -15,13 +15,13 @@ Para a criação das tabelas dimensão foram realizados no banco de dados relaci
 ```sql
 CREATE TABLE dim_fornecedor AS
 SELECT fornecedor_id, endereco_fornecedor, telefone_fornecedor FROM tbestoque;
-```
+
 CREATE TABLE dim_loja AS
 SELECT loja_id, nome_loja, endereco_loja, cidade_loja FROM tbestoque;
 
 CREATE TABLE dim_produto AS
 SELECT produto_id, nome_produto, categoria_produto, preco_produto FROM tbestoque;
-
+```
 Para a criação da tabela fato foi realizado o seguinte comando no banco de dados relacional:
 ```sql
 CREATE TABLE fato_estoque AS
