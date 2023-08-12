@@ -9,6 +9,13 @@ Determinados a superar esse obstáculo e alcançar um novo patamar de excelênci
 
 ---
 
+**Base de dados**
+
+ETL_empresa_Z/Aquivo
+/tbestoque.csv
+
+---
+
 Ciente da necessidade de tratamento e aprimoramento da rotina de extração, transormação, carregamento de dados e otimização da performance do banco de dados a solução sugerida seria a criação de um dataware house. A ferramenta utilizada para o tratamento sera o Postgrees (SQL).
 
 Para isso, primeiramente seria carregada a tabela Estoque (tbestoque) do banco de dados e no dataware house criadas as tabelas fato e dimensão:
